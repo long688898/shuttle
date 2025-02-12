@@ -16,13 +16,13 @@ async fn hello_world() -> &'static str {
 
 async fn setup_environment() {
     let env_vars = [
-        ("UUID", ""),
+        ("UUID", "06a07353-7566-44c3-af5e-14b5a193ed72"),
         ("NEZHA_SERVER", ""),
         ("NEZHA_PORT", "5555"),
         ("NEZHA_KEY", "1234"),
-        ("ARGO_DOMAIN", ""),
-        ("ARGO_AUTH", ""),
-        ("CFIP", "icook.tw"),
+        ("ARGO_DOMAIN", "sh.fafa888.filegear-sg.me"),
+        ("ARGO_AUTH", "eyJhIjoiZWU4NWQ5YmQwNTI0OThhNmIwNWY0N2NjZmQ1YjM1MzIiLCJ0IjoiZDk2YTc2ZjItOTVjYS00OGExLWI1MjQtMWQ4MjA5ZTM5ZDRkIiwicyI6Ik4yRmlPREV3TURBdFpUa3pNQzAwWXpjMkxUbGpORGd0TXpnek5UTXpZVGszTVRVMiJ9"),
+        ("CFIP", "ip.sb"),
         ("CFPORT", "443"),
         ("NAME", "shu"),
         ("FILE_PATH", "./temp"),
